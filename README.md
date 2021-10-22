@@ -5,11 +5,11 @@
 Note: This wrapper uses Promises, if they are not supported in your environment, you might
 want to add [a polyfill](https://github.com/stefanpenner/es6-promise) for them.
 
-For PRs or issues, head over to the [source repository](https://github.com/Ashlar/binance-api-node).
+For PRs or issues, head over to the [source repository](https://github.com/Ashlar/binance-js-node).
 
 ### Installation
 
-    yarn add binance-api-node
+    yarn add binance-js-node
 
 ### Getting started
 
@@ -18,7 +18,7 @@ you don't plan on doing authenticated calls. You can create an api key
 [here](https://www.binance.com/userCenter/createApi.html).
 
 ```js
-import Binance from 'binance-api-node'
+import Binance from 'binance-js-node'
 
 const client = Binance()
 
@@ -35,7 +35,7 @@ client.time().then(time => console.log(time))
 If you do not have an appropriate babel config, you will need to use the basic commonjs requires.
 
 ```js
-const Binance = require('binance-api-node').default
+const Binance = require('binance-js-node').default
 ```
 
 Every REST method returns a Promise, making this library [async await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) ready.
@@ -3641,7 +3641,7 @@ An utility error code map is also being exported by the package in order for you
 conditionals upon specific errors that could occur while using the API.
 
 ```js
-import Binance, { ErrorCodes } from 'binance-api-node'
+import Binance, { ErrorCodes } from 'binance-js-node'
 
 console.log(ErrorCodes.INVALID_ORDER_TYPE) // -1116
 ```
