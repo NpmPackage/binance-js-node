@@ -1,7 +1,7 @@
 {
   "name": "binance-js-node",
-  "version": "0.1.2",
-  "description": "This project was copied from  https://www.npmjs.com/package/binance-api-node. Only customizations were made on this project",
+  "version": "0.2",
+  "description": "A node API wrapper for Binance",
   "main": "dist",
   "files": [
     "dist",
@@ -57,16 +57,5 @@
   },
   "author": "Balthazar Gronon <git@balthazar.dev>",
   "homepage": "https://github.com/Ashlar/binance-api-node",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NpmPackage/binance-js-node.git"
-  },
-  "keywords": [
-    "binance",
-    "api"
-  ],
-  "bugs": {
-    "url": "https://github.com/NpmPackage/binance-js-node/issues"
-  }
+  "license": "MIT"
 }
