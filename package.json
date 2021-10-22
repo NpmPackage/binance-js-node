@@ -1,6 +1,6 @@
 {
   "name": "binance-js-node",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This project was copied from  https://www.npmjs.com/package/binance-api-node. Only customizations were made on this project",
   "main": "dist",
   "files": [
